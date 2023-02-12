@@ -81,7 +81,7 @@ $(function() {
 				$element += '</div>';
 
 		$.ajax({
-			url: "mock/article" + $id + ".json",
+			url: "mock/article1.json",
 			dataType: 'json',
 			beforeSend: function() {
 				loading.show();
