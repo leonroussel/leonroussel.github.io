@@ -91,6 +91,7 @@ $(function() {
 		$.ajax({
 			url: "mock/article" + $id + ".json",
 			dataType: 'json',
+			contentType: "application/json; charset=utf-8",
 			beforeSend: function() {
 				loading.show();
 			},
