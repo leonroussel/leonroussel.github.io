@@ -103,6 +103,8 @@ $(function() {
 						res = [],
 						element = $element;
 				while(match = reg.exec($element)) {
+					console.log(match[1]);
+					console.log(data[match[1]]);
 					element = element.replace('{' + match[1] + '}', data[match[1]]);
 				}
 
