@@ -144,6 +144,7 @@ html, body {
 
 .article-read .article-content {
 	line-height: 28px;
+	text-indent: 10%;
 }
 /*navbar*/
 .navbar.main-navbar {
