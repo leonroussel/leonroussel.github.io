@@ -52,13 +52,13 @@ $(function() {
 		let $this = $(this),
 				$id = $this.attr("data-id");
 		
-		var element = $this;
+		/*var element = $this;
 		var attributes = element[0].attributes;
 		for (var i = 0; i < attributes.length; i++) {
 		  console.log(attributes[i].name + ": " + attributes[i].value);
 		}
+		console.log($id);*/
 		
-		console.log($id);
 		$("body").css({
 			overflow: "hidden"
 		});
