@@ -82,6 +82,7 @@ $(function() {
 				$element += '</div>';
 				$element += '<figure class="article-picture"><img src="{picture}"></figure>'; */
 				$element += '<div class="article-content">';
+				$element += '<br>';
 				$element += '{content}';
 				$element += '</div>';
 				$element += '</div>';

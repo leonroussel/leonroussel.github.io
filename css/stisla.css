@@ -148,6 +148,7 @@ html, body {
 }
 
 .article-read .article-content {
+	text-align: justify;
 	line-height: 28px;
 	text-indent: 10%;
 }
