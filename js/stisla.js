@@ -50,7 +50,7 @@ $(function() {
 
 	$("[data-toggle=read]").click(function() {
 		let $this = $(this),
-				$id = $this.attr("id");
+				$id = $this.attr("data-id");
 		console.log($id);
 		$("body").css({
 			overflow: "hidden"
