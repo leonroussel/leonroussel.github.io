@@ -51,7 +51,7 @@ $(function() {
 	$("[data-toggle=read]").click(function() {
 		let $this = $(this),
 				$id = $this.attr("id");
-
+		console.log($id);
 		$("body").css({
 			overflow: "hidden"
 		});
@@ -59,21 +59,21 @@ $(function() {
 		let $element = '<div class="article-read">';
 				$element += '<div class="article-read-inner">';
 				$element += '<div class="article-back">';
-				$element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
+				$element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Retour</a>';
 				$element += '</div>';
 				$element += '<h1 class="article-title">{title}</h1>';
 				$element += '<div class="article-metas">';
 				$element += '<div class="meta">';
 				$element += '	{date}';
 				$element += '</div>';
-				$element += '<div class="meta">';
+				/*$element += '<div class="meta">';
 				$element += '	{category}';
 				$element += '</div>';
 				$element += '<div class="meta">';
 				$element += '	{author}';
 				$element += '</div>';
 				$element += '</div>';
-				$element += '<figure class="article-picture"><img src="{picture}"></figure>';
+				$element += '<figure class="article-picture"><img src="{picture}"></figure>'; */
 				$element += '<div class="article-content">';
 				$element += '{content}';
 				$element += '</div>';
@@ -81,7 +81,7 @@ $(function() {
 				$element += '</div>';
 
 		$.ajax({
-			url: "mock/article1.json",
+			url: "mock/article" + $id + ".json",
 			dataType: 'json',
 			beforeSend: function() {
 				loading.show();
