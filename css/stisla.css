@@ -8,6 +8,10 @@ html, body {
 	height: 100% !important;
 }
 
+hr {
+  width: 30%;
+}
+
 .main-loading {
 	position: fixed;
 	top: 50%;
@@ -64,7 +68,7 @@ html, body {
 	height: 100%;
 }
 
-/*article read*/
+/* read*/
 .article-read {
 	display: none;
 	position: fixed;
