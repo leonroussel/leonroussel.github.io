@@ -1,5 +1,10 @@
 /*reset*/
+
+@import url('https://fonts.googleapis.com/css?family=Lexend&display=swap');
+
+
 html, body {
+	font-family: 'Lexend', sans-serif;
 	height: 100% !important;
 }
 
@@ -251,7 +256,7 @@ html, body {
 
 .hero .text {
 	position: absolute;
-	top: 60%;
+	top: 53%;
 	left: 300px;
 	right: 300px;
 	transform: translateY(-60%);
@@ -264,15 +269,18 @@ html, body {
 }
 
 .hero .text h1 {
+	font-weight: lighter;
+	color: #D1D1D1;
 	margin: 0;
-	font-size: 64px;
+	font-size: 56px;
 	font-weight: 300;
 	letter-spacing: .5px;
 	line-height: 1.3em;
 }
 
 .hero .text h1 .bold {
-	font-weight: 600;
+	font-weight: bold;
+	color: #FFFFFF;
 }
 
 .hero .text p.lead {
@@ -465,6 +473,7 @@ article.card .card-title {
 article.card .card-title a {
 	color: #000;
 	text-decoration: none;
+	font-weight: Bold;
 }
 
 article.card .card-title a:hover {
