@@ -109,11 +109,11 @@ $(function() {
 				let reg = /{([a-zA-Z0-9]+)}/g,
 						res = [],
 						element = $element;
-				/*while(match = reg.exec($element)) {
-					console.error(match[1]);
-					console.error(data[match[1]]);
+				while(match = reg.exec($element)) {
+					/*console.error(match[1]);
+					console.error(data[match[1]]);*/
 					element = element.replace('{' + match[1] + '}', data[match[1]]);
-				}*/
+				}
 
 				$("body").prepend(element);
 				$(".article-read").fadeIn();
