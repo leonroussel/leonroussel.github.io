@@ -106,7 +106,14 @@ hr:after {
 	-ms-transform: translate(-50%, 0);
 	-o-transform: translate(-50%, 0);
 	padding: 50px 0 100px 0;
-	width: 70%;
+	width: 60%;
+}
+
+/* bigger width for screen */
+@media (orientation: portrait) {
+  .article-read .article-read-inner {
+    width: 80%;
+  }
 }
 
 .article-read .article-back {
