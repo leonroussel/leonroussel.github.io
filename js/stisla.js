@@ -65,9 +65,11 @@ $(function() {
 
 		let $element = '<div class="article-read">';
 				$element += '<div class="article-read-inner">';
+		
 				$element += '<div class="article-back">';
 				$element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Retour</a>';
 				$element += '</div>';
+		
 				$element += '<h1 class="article-title">{title}</h1>';
 				$element += '<div class="article-metas">';
 				$element += '<div class="meta">';
@@ -86,6 +88,11 @@ $(function() {
 				$element += '{content}';
 				$element += '</div>';
 				$element += '</div>';
+		
+				$element += '<div class="article-back">';
+				$element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Retour</a>';
+				$element += '</div>';
+		
 				$element += '</div>';
 
 		$.ajax({

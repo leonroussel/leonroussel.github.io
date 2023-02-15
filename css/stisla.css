@@ -92,7 +92,7 @@ hr:after {
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
-	padding: 40px;
+	padding: 30px;
 	z-index: 99999;
 	overflow: auto;
 }
